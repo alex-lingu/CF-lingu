@@ -2,7 +2,7 @@
     "name": "Lingumania",
     "description": "Lingumania lets you translate your website in context and launch localized versions of your website the quick and easy way.",
     "version": "1.0",
-    "category": "Translation",
+    "category": "translation",
     "main": "public/javascripts/lingumania.admin.js",
     "config":{
         "details":{
