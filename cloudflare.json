@@ -14,12 +14,12 @@
         }, 
         "assets":{
             "logos" : {
-                "200px": "./public/images/logo-200.png",
-                "132px": "./public/images/logo-132.png"
+                "200px": "./public/images/lingumania-200.png",
+                "132px": "./public/images/lingumania-132.png"
             },
             "detail_page" : [
-                "./public/images/visualTM.gif",
-                "./public/images/lingumania_admin_widget_menu.png"
+                "./public/images/lingumania/visualTM.gif",
+                "./public/images/lingumania/lingumania_admin_widget_menu.png"
             ]
         },
         "interface": [
@@ -28,6 +28,7 @@
                 "id": "source_lang",
                 "name": "Source Language",
                 "description": "Select your site's current language",
+                "domain_request": true,
                 "options": [
                     {
                         "label": "English",
@@ -440,6 +441,7 @@
                 "id": "target_lang",
                 "name": "Target Language",
                 "description": "Select the language to which you wish to translate",
+                "domain_request": true,
                 "options": [
                     {
                         "label": "English",
