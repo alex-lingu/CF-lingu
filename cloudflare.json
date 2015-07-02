@@ -1,13 +1,13 @@
 {
     "name": "Lingumania",
     "description": "Lingumania lets you translate your website in context and launch localized versions of your website the quick and easy way.",
-    "version": "1.1",
+    "version": "1.2",
     "category": "translation",
-    "main": "public/javascripts/lingumania.admin.js",
+    "main": "./public/javascripts/lingumania_cloudflare.js",
     "config":{
         "details":{
             "Language": "English",
-            "Price": "Free, but can be upgraded to paid options.",
+            "Price": "Free plan - up to 1,000 pageviews/month, Start ($15/month) - up to 10,000 pageviews, Grow ($49/month) - unlimited pageviews",
             "Restrictions": "None",
             "TOS":"http://www.lingumania.com/terms-of-service",
             "has_js": true
@@ -18,8 +18,8 @@
                 "132px": "./public/images/lingumania-132.png"
             },
             "detail_page" : [
-                "./public/images/lingumania/visualTM.gif",
-                "./public/images/lingumania/lingumania_admin_widget_menu.png"
+                "./public/images/visualTM.gif",
+                "./public/images/lingumania_admin_widget_menu.png"
             ]
         },
         "interface": [
@@ -854,5 +854,22 @@
     "account": {
         "callback_url": "https://www.lingumania.com/API/CF",
         "user_fields": ["email"]
+    },
+    "billing": {
+        "type": "zone",
+        "plans":[
+            {
+                "name" : "Free",
+                "price": "0.00"
+            },
+            {
+                "name" : "Start",
+                "price" : "15.00"
+            },
+            {
+                "name" : "Grow",
+                "price" : "49.00"
+            }
+        ]
     }
 }

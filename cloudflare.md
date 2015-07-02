@@ -5,7 +5,7 @@ Lingumania lets you translate your website in context and launch localized versi
 
 Our visual editor highlights all translatable content on your website and allows you to translate it in context, with machine translations offered as suggestions.
 
-![Lingumania's Visual Translation Editor](/images/apps/lingumania/visualTM.gif "Lingumania's Visual Translation Editor")
+![Lingumania's Visual Translation Editor](/images/apps/visualTM.gif "Lingumania's Visual Translation Editor")
 
 
 #### Launch Translated Sites
@@ -17,14 +17,14 @@ Once your translation cycle is done, you can launch your translated websites dir
 
 This app will add a menu to your website that lets you launch our visual translation editor so you can easily translate yourself or order professional translations for your website. The menu also gives you a percentage indicator of current page's translation progress, and lets you preview each page in new languages while it's being translated. This is an admin app and only you or the people you give access to will see this menu on your website.
 
-![Lingumania Admin Menu Widget](/images/apps/lingumania/lingumania_admin_widget_menu.png "Lingumania Admin Menu Widget")
+![Lingumania Admin Menu Widget](/images/apps/lingumania_admin_widget_menu.png "Lingumania Admin Menu Widget")
 
 
 #### Installation
 
-After you activate the app, visit your project's Lingumania Admin Dashboard. Then go to your website and the app's menu will appear.
+After you activate the app, click Log in to App button on CloudFlare. Then go to your website and the app’s menu will appear. You can also give others access to this app by inviting them from your Lingumania Admin Dashboard.
 
 
 #### Pricing
 
-Translate and launch your translated websites for free using our subdomain (ie. fr.yoursite.lingumania.com). Alternatively have your translated site delivered using your own domain (ie. fr.yourdomain.com) [starting at $9 per language /month](https://www.lingumania.com/pricing).
+Translate and launch your translated websites for free using our subdomain (ie. fr.yoursite.lingumania.com). Alternatively have your translated site delivered using your own domain (ie. fr.yourdomain.com) at $15/month for up to 10,000 monthly pageviews or $49/month for unlimited pageviews. Only translated website traffic goes toward your monthly pageview count.
